@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#0cf"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/ivPic"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:src="@drawable/fb_img_1473957942018"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/fb_img_1473957942018"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:id="@+id/btPhone"
+        android:text="Phone"
+        android:textColor="#000"
+        android:layout_below="@+id/ivPic"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btEmail"
+        android:text="Email"
+        android:textColor="#000"
+        android:layout_below="@+id/btPhone"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="DuplicateIds,HardcodedText" />
+
+    <Button
+        android:id="@+id/btWebsite"
+        android:text="Website"
+        android:textColor="#000"
+        android:layout_below="@+id/btEmail"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btGeo"
+        android:text="Geo"
+        android:textColor="#000"
+        android:layout_below="@+id/btWebsite"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+</RelativeLayout>
+
